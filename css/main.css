@@ -98,6 +98,14 @@ body {
 	height: 40px;
 }
 
+.no-padding {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
 /* Image */
 
 .image {
@@ -121,15 +129,8 @@ body {
 	height: 150px;
 }
 
-.banner-bg img {
-	height: 150px;
-	left: 0;
-	max-width: none;
-	right: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	z-index: -2	;
+.banner-bg .banner-image {
+	height: 99%;
 }
 
 .banner-detail {
@@ -184,7 +185,7 @@ body {
 	background: rgba( 0, 0, 0, .4);
 	color: var(--main-bg-color);
 	display: block;
-	margin: 15px 0;
+	margin: 15px -15px;
 	padding: 20px;
 }
 
@@ -239,6 +240,13 @@ body {
 	color: var(--main-bg-color);
 	outline: none;
 	text-decoration: none;
+}
+
+.btn-index {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
 }
 
 
@@ -303,6 +311,16 @@ h2 {
 	width: 40px;
 }
 
+.banner-image {
+	background-size: cover;
+	height: 100%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	top: 0;
+	z-index: -2;
+}
+
 /* Lists */
 ul li {
 	line-height: 1.4em;
@@ -312,20 +330,19 @@ ul.banner-list {
 	counter-reset: route-counter;
 }
 
-ul.banner-list img {
-	height: 150px;
-	max-width: none;
-	overflow: hidden;
-	width: auto;
-}
-
 ul.banner-list span {
 	bottom: 0;
 	left: 0;
-	margin-bottom: 0;
+	margin: 0;
 	right: 0;
 	padding: 10px;
 	position: absolute;
+}
+
+ul.banner-list .banner-image {
+	height: 150px;
+	position: relative;
+	width: 100%;
 }
 
 ul.banner-list span::before {
