@@ -351,3 +351,19 @@ ul.banner-list span::before {
 	counter-increment: route-counter;
 	margin-right: 10px;
 }
+
+ul.icon-list li {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+ul.icon-list li img {
+	margin-right: 20px;
+	vertical-align: top;
+	width: 30px;
+}
+
+ul.icon-list li span {
+	display: inline-block;
+	width: calc(100% - 60px);
+}
