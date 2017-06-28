@@ -221,6 +221,7 @@ body {
 	background: rgba(171, 183, 140, .2);
 	border: 3px solid var(--secondary-color);
 	margin-top: -1px;
+	margin-bottom: -1px;
 }
 
 .btn-back {
