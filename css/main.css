@@ -81,11 +81,21 @@ body {
 	line-height: 1.2em;
 }
 
+.container-fluid {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 /* Helper classes */
 .border-radius {
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
+}
+
+.clear-10 {
+	clear: both;
+	height: 10px;
 }
 
 .clear-20 {
@@ -104,6 +114,10 @@ body {
 
 .no-margin {
 	margin: 0;
+}
+
+.w-100 {
+	width: 100%;	
 }
 
 /* Image */
@@ -175,7 +189,7 @@ body {
 
 .logo {
 	display: inline-block;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	max-width: 50%;
 }
 
@@ -185,7 +199,7 @@ body {
 	background: rgba( 0, 0, 0, .4);
 	color: var(--main-bg-color);
 	display: block;
-	margin: 15px -15px;
+	margin: 25px -15px;
 	padding: 20px;
 }
 
@@ -268,6 +282,10 @@ h2 {
 	line-height: 1.3em;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 .primary-color {
 	color: var(--main-bg-color);
 }
@@ -312,6 +330,11 @@ h2 {
 	width: 40px;
 }
 
+.banner-title img {
+	margin-right: 20px;
+	width: 50px;
+}
+
 .banner-image {
 	background-size: cover;
 	height: 100%;
@@ -354,11 +377,10 @@ ul.banner-list span::before {
 
 ul.icon-list li {
 	display: inline-block;
-	margin: 10px 0;
+	margin: 10px 30px;
 }
 
 ul.icon-list li img {
-	margin-right: 20px;
 	vertical-align: top;
 	width: 60px;
 }
