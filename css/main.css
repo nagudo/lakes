@@ -389,3 +389,15 @@ ul.icon-list li span {
 	display: inline-block;
 	width: calc(100% - 60px);
 }
+
+/* Iframe */
+.load-iframe {
+	background: url("../img/icons/earth.gif") no-repeat 50% 0%;  /* Thank you Mantas! - http://mantasbac.dribbble.com/ */
+	height: 480px;
+	width: 100%;
+}
+
+.load-iframe iframe {
+	height: 100%;
+	width: 100%;
+}
