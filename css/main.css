@@ -74,10 +74,10 @@ html, body, #wrapper {
 }
 
 body {
-	background-color: var(--main-bg-color);
-	color: var(--main-font-color);
+	background-color: #fafafa;
+	color: #424242;
 	font-family: 'Open Sans', sans-serif;
-	font-size: var(--main-font-size);
+	font-size: 1em;
 	line-height: 1.2em;
 }
 
@@ -148,12 +148,12 @@ body {
 }
 
 .banner-detail {
-	background: var(--main-bg-color);
+	background: #fafafa;
 	height: 70px;
 }
 
 .banner-triangle {
-	border-bottom: 125px solid var(--main-bg-color);
+	border-bottom: 125px solid #fafafa;
     border-left: 960px solid transparent;
     bottom: 0;
     height: 100%;
@@ -164,7 +164,7 @@ body {
 .banner-detail .banner-triangle {
 	border-bottom: none;
 	border-left: none;
-	border-top: 125px solid var(--secondary-color);
+	border-top: 125px solid #abb78c;
     border-right: 960px solid transparent;
     bottom: inherit;
     top: 0;
@@ -197,7 +197,7 @@ body {
 
 .index-highlight {
 	background: rgba( 0, 0, 0, .4);
-	color: var(--main-bg-color);
+	color: #fafafa;
 	display: block;
 	margin: 25px -15px;
 	padding: 20px;
@@ -207,7 +207,7 @@ body {
 
 .btn-primary {
 	background: rgba( 0, 0, 0, .6);
-	border: 2px solid var(--main-bg-color);
+	border: 2px solid white;
 	color: white;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -217,14 +217,14 @@ body {
 .btn-primary:hover,
 .btn-primary:focus {
 	background: rgba( 0, 0, 0, .8);
-	border: 3px solid var(--main-bg-color);
+	border: 3px solid #fafafa;
 	margin-top: -2px;
 }
 
 .btn-secondary {
 	background: white;
-	border: 2px solid var(--main-font-color);
-	color: var(--main-font-color);
+	border: 2px solid #424242;
+	color: #424242;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -233,14 +233,14 @@ body {
 .btn-secondary:hover,
 .btn-secondary:focus {
 	background: rgba(171, 183, 140, .2);
-	border: 3px solid var(--secondary-color);
+	border: 3px solid #abb78c;
 	margin-top: -1px;
 	margin-bottom: -1px;
 }
 
 .btn-back {
 	background: rgba( 0, 0, 0, .6);
-	color: var(--main-bg-color);
+	color: white;
 	display: block;
 	padding: 10px;
 }
@@ -252,7 +252,7 @@ body {
 .btn-back:hover,
 .btn-back:focus  {
 	background: rgba( 0, 0, 0, .8);
-	color: var(--main-bg-color);
+	color: #fafafa;
 	outline: none;
 	text-decoration: none;
 }
@@ -287,11 +287,11 @@ p {
 }
 
 .primary-color {
-	color: var(--main-bg-color);
+	color: #fafafa;
 }
 
 .secondary-color {
-	color: var(--secondary-color);
+	color: #abb78c;
 }
 
 /* Banners */
@@ -319,11 +319,11 @@ p {
 }
 
 .banner-title .round-number {
-	background: var(--secondary-color);
+	background: #abb78c;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
-	color: var(--main-bg-color);
+	color: #fafafa;
 	display: inline-block;
 	height: 40px;
 	line-height: 40px;
